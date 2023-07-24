@@ -1,7 +1,7 @@
 # homework_group_81
-网络空间安全创新创业实践小组project仓库2023
-组员为1人：
-    组员1 姓名：陈硕 学号：202100460066 负责project：所有project
+网络空间安全创新创业实践小组project仓库2023  
+组员为1人：  
+    组员1 姓名：陈硕 学号：202100460066 负责project：所有project  
 
 *Project1: implement the naïve birthday attack of reduced SM3  
 *Project2: implement the Rho method of reduced SM3  
