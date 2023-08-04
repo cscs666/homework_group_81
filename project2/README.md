@@ -21,9 +21,10 @@ random、gmssl、time库
 
 ## 部分截图
 1byte：<br>
-![inage](https://github.com/cscs666/homework_group_81/blob/main/project2/AF8F3%244E7%5BOU0HHE_NELJ%40F.png)
+![inage](https://github.com/cscs666/homework_group_81/blob/main/project2/AF8F3%244E7%5BOU0HHE_NELJ%40F.png)  
+
 2bytes:<br>
-![image](https://github.com/cscs666/homework_group_81/blob/main/project2/NG49EV6E)%25(QR7%40%24B%60DE%609U.png)
+![image](https://github.com/cscs666/homework_group_81/blob/main/project2/NG49EV6E\)%25\(QR7%40%24B%60DE%609U.png)
 
 ## 分析
-相对于之前的朴素的基于生日悖论碰撞攻击，rho攻击算法的速度慢了很多。
+相比于project1的生日攻击，本project的rho攻击速度慢了不少。
