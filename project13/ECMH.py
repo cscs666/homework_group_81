@@ -3,6 +3,7 @@ import math
 import random
 from gmpy2 import invert
 from sympy.ntheory.residue_ntheory import nthroot_mod#求解二次剩余
+import time
 
 def ECCMod(a, n):  
     if math.isinf(a):
@@ -89,7 +90,9 @@ Gy=0xBC3736A2F4F6779C59BDCEE36B692153D0A9877CC62A474002DF32E52139F0A0
 privateKey,publicKey=keygen(a,p,n,Gx,Gy)
 print('privateKey=',privateKey)
 print('publicKey=',publicKey)
+time1=time.time()
 message1,message2=b"sdusdu",b"ccccssss"
+time2=time.time()
 res=hash((message1,message2),a,b,p)
 print("信息为",(message1,message2))
-print("结果为",res)
+print("结果为",res," 消耗时间为",time2-time1)
