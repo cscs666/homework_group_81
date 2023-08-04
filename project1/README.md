@@ -15,5 +15,5 @@ SM3 密码杂凑算法是中国国家密码管理局年公布的中国商用密�
 |2|0.513412s|323.71|
 
 ## 运行截图
-![image](https://github.com/cscs666/homework_group_81/blob/main/project1/FUL%60CN3LTN%5DUMD%25EY6F%40LXY.png"1字节运行截图")<br>
-![image](https://github.com/cscs666/homework_group_81/blob/main/project1/HA%7D1VGFAVK%60%5B%24ZCO%5D63PS80.png"2字节运行截图")
+![image](https://github.com/cscs666/homework_group_81/blob/main/project1/FUL%60CN3LTN%5DUMD%25EY6F%40LXY.png "1字节运行截图")<br>
+![image](https://github.com/cscs666/homework_group_81/blob/main/project1/HA%7D1VGFAVK%60%5B%24ZCO%5D63PS80.png "2字节运行截图")
