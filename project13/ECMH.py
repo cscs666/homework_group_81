@@ -87,12 +87,13 @@ n=0xFFFFFFFEFFFFFFFFFFFFFFFFFFFFFFFF7203DF6B21C6052B53BBF40939D54123
 Gx=0x32C4AE2C1F1981195F9904466A39C9948FE30BBFF2660BE1715A4589334C74C7
 Gy=0xBC3736A2F4F6779C59BDCEE36B692153D0A9877CC62A474002DF32E52139F0A0
 
+
 privateKey,publicKey=keygen(a,p,n,Gx,Gy)
 print('privateKey=',privateKey)
 print('publicKey=',publicKey)
 time1=time.time()
 message1,message2=b"sdusdu",b"ccccssss"
-time2=time.time()
 res=hash((message1,message2),a,b,p)
+time2=time.time()
 print("信息为",(message1,message2))
-print("结果为",res," 消耗时间为",time2-time1)
+print("结果为",res,"hash 消耗时间为",time2-time1)
