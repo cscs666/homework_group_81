@@ -20,10 +20,10 @@ SM3的迭代压缩步骤没有直接使用数据分组进行运算，而是使�
 ##### 迭代压缩：
 SM3使用消息扩展得到的消息字进行运算。这个迭代过程可以用这幅图表示：
 
-![image](https://pic2.zhimg.com/80/v2-24cede4010e3cef97ae606ff71bd0c25_1440w.webp)<br>
+![image](https://github.com/cscs666/homework_group_81/blob/main/project4/v2-24cede4010e3cef97ae606ff71bd0c25_1440w.webp)<br>
 初值IV被放在A、B、C、D、E、F、G、H八个32位变量中。整个算法中最核心、也最复杂的地方就在于压缩函数。压缩函数将这八个变量进行64轮相同的计算，一轮的计算过程如下图所示：
 
-![image](https://pic4.zhimg.com/80/v2-380647a6a95d50e571dca706f8022a23_1440w.webp)<br>
+![image](https://raw.githubusercontent.com/cscs666/homework_group_81/main/project4/v2-380647a6a95d50e571dca706f8022a23_1440w.webp)<br>
 图中不同的数据流向用不同颜色的箭头表示。
 ##### 输出结果：
 最后，再将计算完成的A、B、C、D、E、F、G、H和原来的A、B、C、D、E、F、G、H分别进行异或，就是压缩函数的输出。这个输出再作为下一次调用压缩函数时的初值。依次类推，直到用完最后一组132个消息字为止。
