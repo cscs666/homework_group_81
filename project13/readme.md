@@ -14,8 +14,10 @@ ECMH就是某些消息的哈希值各自映射到椭圆曲线上的一个点，�
 ## 实现效果
 加密效果图：
 
-![image](https://github.com/cscs666/homework_group_81/blob/main/project11/Q%25QR62OEHO3%60%5BN2COXH%256%25S.png)<br>
-|加密位数|运行时间s|  
-|15     |0.012962|  
-|10000  |2.023226|  
-经过与密码算法库的实现结果进行比较，发现与密码库的加密结果一致，并且可以解密成功，证明加密算法实现正确。
+![image](https://github.com/cscs666/homework_group_81/blob/main/project13/H9G5G%7D95Z\(F%25%5DQTVTGT03T3.png)<br>  
+
+|加密比特数|运行时间s|  
+|6，8    |0.001|   
+|生成密钥|运行时间s|   
+         |3.462836|  
+经测试得，hash过程普遍较快，运行程序的主要时间花费在生成密钥上.
