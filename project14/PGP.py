@@ -1,7 +1,6 @@
 import gmssl.sm2 as SM2
 import gmssl.sm4 as SM4
-import math
-import random
+import time
 
 def sm4_encode(key, data):
     sm4Alg = SM4.CryptSM4()  # 实例化sm4
@@ -39,7 +38,11 @@ def receiver(cipherK,cipherM,pk,sk):
 
 
 message="sdusdusdusducccssscccsss"
+time1=time.time()
 cipherK,cipherM,pk,sk=sender(message)
-print("cipherK=",cipherK,"\ncipherM=",cipherM)
+time2=time.time()
+print("cipherK=",cipherK,"\ncipherM=",cipherM,"加密耗时",time2-time1)
+time1=time.time()
 M=receiver(cipherK,cipherM,pk,sk)
-print("M=",M)
+time2=time.time()
+print("M=",M,"解密耗时",time2-time1)
